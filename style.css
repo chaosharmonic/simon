@@ -1,0 +1,54 @@
+body {
+  background: black;
+  color: white;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+  padding-top: 60px;
+}
+
+
+div {
+  border-radius: 5px;
+  text-align: center;
+}
+
+.row {
+  height: 80px;
+  padding-bottom: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#red {
+  background: rgb(140, 0, 0);
+}
+
+#red.lit {
+  background: rgb(245, 0, 0);
+}
+
+#green {
+  background: rgb(0, 140, 0);
+}
+
+#green.lit {
+  background: rgb(0, 245, 0);
+}
+
+
+#blue {
+  background: rgb(0, 0, 140);
+}
+
+#blue.lit {
+  background: rgb(0, 0, 245);
+}
+
+#yellow {
+  background: rgb(190, 190, 0);
+}
+
+#yellow.lit {
+  background: rgb(245, 245, 0);
+}
